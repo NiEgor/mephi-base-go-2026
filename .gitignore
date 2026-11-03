@@ -1,0 +1,35 @@
+# IDE (OpenIDE / IntelliJ / GoLand, VS Code)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+
+# macOS
+.DS_Store
+._*
+
+# Бинарники и результаты сборки Go
+/tracker
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+bin/
+dist/
+
+# Покрытие и профилирование
+*.out
+coverage.*
+*.prof
+
+# Go workspace (локальный)
+go.work
+go.work.sum
+
+# Переменные окружения и логи
+.env
+*.log
